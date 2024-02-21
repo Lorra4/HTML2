@@ -1,0 +1,146 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    color: #222;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+a:hover {
+    color: yellow;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.shadow-on-hover {
+    transition: all 0.2s;
+}
+.shadow-on-hover:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* btn */
+.btn {
+    border-radius: 0;
+    padding: 14px 38px;
+}
+.btn-brand {
+    color: #fff;
+    font-weight: 500;
+    border-color: rgb(255, 208, 0);
+    background-color:rgb(255, 208, 0);
+}
+.btn-brand:hover {
+    border-color: rgb(255, 208, 0);
+    background-color: rgb(255, 208, 0);
+    color: #fff;
+}
+
+.bg-cover{background-size: cover !important;
+    background-position:center !important;
+    background-repeat: no-repeat !important;
+
+}
+
+
+/* slider */
+.slide-1{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(./Images/Cameroon\ Ndole\ \(Bitterleaf\ casserole\ \)\ \ –\ AFROVITALITYEATS.jpg)
+}
+
+.slide-2{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(./Images/Best\ Most\ Authentic\ Cameroonian\ Corn\ Porridge_\ Corn\ Chaff.jpg)
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgba(0, 0, 0, 0.5) ;
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+
+/* About */
+#about .divider {
+    height: 2.5px;
+    display: block;
+    background-color: rgb(255, 208, 0);
+
+}
+
+.merge {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Intro text */
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Menu */
+#menu .nav-pills .nav-link {
+    background-color: #fff;
+    margin-left:8px ;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px;
+}
+
+#menu .nav-pills .nav-link.active {
+    background-color: rgb(255, 208, 0);
+    color: #ffffff;
+}
+
+
+/* reservation */
+#reservation .form-control {
+    border-radius: 0;
+}
+#reservation .form-control:focus {
+    box-shadow: none;
+    border-color: rgb(255, 208, 0);
+}
+#reservation input.form-control {
+    height: 47px;
+}
+
+
+/* footer */
+
+
+
+footer{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url(./Images/Best\ Most\ Authentic\ Cameroonian\ Corn\ Porridge_\ Corn\ Chaff.jpg); 
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+footer p{
+    color: #fff;
+}
+footer img{
+    max-width: 160px;
+}
+
+.combine {
+align-items: flex-start;
+display: flex;
+justify-content: space-around;
+}
+
